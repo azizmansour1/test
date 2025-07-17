@@ -1,0 +1,21 @@
+name: Flutter Debug Setup
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print runner info
+        run: |
+          echo "Runner OS: $RUNNER_OS"
+          echo "Runner User: $USER"
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 'stable'
+      - name: Print Flutter version
+        run: flutter --version
