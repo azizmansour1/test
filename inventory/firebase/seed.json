@@ -1,0 +1,63 @@
+{
+  "stockCounts": {
+    "energya-hk-2026-09-29": {
+      "location": "Energya HK",
+      "date": "2026-09-29",
+      "source": "WhatsApp",
+      "items": [
+        { "name": "صابون خام", "nameEn": "Raw soap", "qty": 10, "unit": "L" },
+        { "name": "جلانس خام", "nameEn": "Raw Glance glass cleaner", "qty": 6, "unit": "L" },
+        { "name": "بليدج سائل خام", "nameEn": "Raw Pledge liquid", "qty": 4, "unit": "L" },
+        { "name": "تنر", "nameEn": "Thinner", "qty": 1, "unit": "L" },
+        { "name": "روما ملمع ستانلس", "nameEn": "Roma stainless polish", "qty": 1, "unit": "bottle" },
+        { "name": "تكنو بلاس", "nameEn": "Techno Plus", "qty": 1, "unit": "bottle" },
+        { "name": "سلك", "nameEn": "Steel wool", "qty": 3, "unit": "kg" }
+      ]
+    }
+  },
+  "orders": {
+    "monthly-2026-10": {
+      "title": "طلبية شهر 10",
+      "titleEn": "October 2026 monthly order",
+      "location": null,
+      "period": "2026-10",
+      "status": "requested",
+      "source": "WhatsApp",
+      "items": [
+        { "name": "ديتول", "nameEn": "Dettol", "qty": 10, "unit": "L" },
+        { "name": "جلانس", "nameEn": "Glance glass cleaner", "qty": 10, "unit": "L" },
+        { "name": "بليدج سائل", "nameEn": "Pledge liquid", "qty": 10, "unit": "L" },
+        { "name": "صابون", "nameEn": "Soap", "qty": 10, "unit": "L" },
+        { "name": "كلور", "nameEn": "Chlorine", "qty": 10, "unit": "L" },
+        { "name": "معطر فريدا", "nameEn": "Frida air freshener", "qty": 1, "unit": "carton" },
+        { "name": "تكنو بلاس", "nameEn": "Techno Plus", "qty": 4, "unit": "bottle" },
+        { "name": "فوطة ميكرو فايبر", "nameEn": "Microfiber cloth", "qty": 40, "unit": "piece", "notes": "ألوان / assorted colors" },
+        { "name": "مقشة ناعمة", "nameEn": "Soft broom", "qty": 6, "unit": "piece", "notes": "أخضر + أي لون غير الأحمر / green + any color except red" },
+        { "name": "مقشة خشنة", "nameEn": "Hard broom", "qty": 4, "unit": "piece" },
+        { "name": "فوطة داست عش النمل", "nameEn": "Waffle dust cloth", "qty": 10, "unit": "piece" },
+        { "name": "إسبونشة", "nameEn": "Sponge", "qty": 30, "unit": "piece", "notes": "ألوان ووشين" },
+        { "name": "روما ملمع ستانلس", "nameEn": "Roma stainless polish", "qty": 4, "unit": "bottle" },
+        { "name": "زجاجة فارغة ببخاخ", "nameEn": "Empty spray bottle", "qty": 10, "unit": "piece" },
+        { "name": "كلوركس ألوان للسجاد", "nameEn": "Clorox colors (carpet)", "qty": 5, "unit": "bottle" }
+      ]
+    },
+    "vip-wing-2026-09-29": {
+      "title": "طلبية وينج الـ VIP",
+      "titleEn": "VIP wing order",
+      "location": "VIP wing",
+      "date": "2026-09-29",
+      "status": "requested",
+      "source": "WhatsApp",
+      "items": [
+        { "name": "Diversey R4", "nameEn": "Diversey R4", "qty": 1, "unit": "bottle" },
+        { "name": "Hydro San Surface", "nameEn": "Hydro San Surface", "qty": 1, "unit": "bottle" },
+        { "name": "ملمع ستانلس", "nameEn": "Stainless polish", "qty": 2, "unit": "bottle" },
+        { "name": "فوط مايكروفايبر", "nameEn": "Microfiber cloth", "qty": 24, "unit": "piece", "notes": "2 دستة / 2 dozen" },
+        { "name": "صابون", "nameEn": "Soap", "qty": 2, "unit": "5L jerrycan" },
+        { "name": "إسبونشات", "nameEn": "Sponge", "qty": 24, "unit": "piece", "notes": "2 دستة / 2 dozen" },
+        { "name": "بليدج سائل للأرضيات", "nameEn": "Pledge Liquid for Wooden Surfaces", "qty": 5, "unit": "bottle" },
+        { "name": "يد مقشة", "nameEn": "Broom handle", "qty": 2, "unit": "piece", "notes": "أزرق / blue" }
+      ]
+    }
+  }
+}
