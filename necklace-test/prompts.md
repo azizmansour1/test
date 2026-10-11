@@ -68,13 +68,17 @@ Control line for every video prompt:
 
 Generate video only, using the default video settings and the attached references. Do not generate images and do not ask follow-up questions.
 
-### P1 · references A (@Abeer) + D (@Necklace) · final cut uses 1.0s
+### P1 · references A (@Abeer) + D (@Necklace) + E (@Room) · final cut uses 1.0s
 
-One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on the older woman's chest: about twenty round matte walnut-brown wooden beads knotted on a dark brown cord, and one flat branch-slice pendant with bark edge and short rows of ancient-looking letters carved into it, lying over her black sheer long-sleeve top and her red-and-white vertical-striped dress. Her face stays out of frame. Static camera, shallow focus, soft warm light. @Abeer is the reference for the woman and her clothes; @Necklace is the reference for the necklace. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" Nobody on screen speaks. No music, no on-screen text, no subtitles.
+Framing per Sameh (2026-10-11): medium shot, medallion visible, Abeer's eye line on the maid.
+
+One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot of the older woman from @Abeer sitting on the gilded burgundy sofa from @Room, heavy brown drapes behind her, framed from the waist up so that her necklace from @Necklace is clearly visible on her chest: matte walnut-brown wooden beads knotted on a dark cord and the flat branch-slice medallion with carved letters, lying over her black sheer long-sleeve top and red-and-white striped dress. She sits still and looks past the camera to the right, at the maid who stands off-screen beside the camera, with a mild, polite, questioning expression. From off-screen, the maid's voice, an older woman, says in Egyptian Arabic: "إيه ده؟" The woman on the sofa does not speak. Warm side daylight. No music, no on-screen text, no subtitles.
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 
-One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. The veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, stares toward the camera in surprise, and points at the camera. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
+Framing per Sameh (2026-10-11): as before, but her look moves from the necklace up to the woman wearing it.
+
+One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. The veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, her eyes fixed on the necklace worn by the woman behind the camera, out of frame, then lifts her look up to the camera, to the woman's face, surprised, and points at it. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
 
 ### P3 · references A (@Abeer) + B (@Sally) + E (@Room) · final cut uses 8.0s · TEST THIS FIRST
 

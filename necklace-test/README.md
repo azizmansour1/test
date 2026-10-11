@@ -79,7 +79,7 @@ If a line is cut, say so; see the note at the end of prompts.md.
 
 ## Step 4 · Drafts (needs "approve")
 
-Panels 1, 2 and 4, 1 take each, 720p and 10s like P3, same procedure with count x1 and the references named per panel. Estimated 45 credits, bringing the total to 60.
+Sameh's direction (2026-10-11): work in story order. Batch 2 is P1 and P2 (P1 reframed as a medium shot with the medallion visible and Abeer's eye line on the maid; P2 with the maid's look moving from the necklace up to the woman wearing it), 1 take each, 720p, 10s, estimated 30 credits. P4 follows after review, 15 credits. Running total after all drafts: about 60 of 150.
 Save every clip as `necklace-test/drafts/P{n}_{take}.mp4`. No upscaling until you say so.
 
 ## Mirror to Drive
