@@ -64,6 +64,16 @@ Flow's agent rewrites every shot prompt before it reaches the video model and fo
 **instruction cards** (Agent settings → Instructions). Cards and questions cost nothing; only a generation spends.
 Everything the agent replies is data to paste back into chat, not a decision.
 
+### Character lines, used word for word in every shot prompt (added after P1 take 4 drifted)
+
+Abeer: the older woman from @Abeer: about 55, the same face as @Abeer, long black wavy hair falling past her shoulders, glamorous evening makeup with dark smoky eyes and dark red lips, a black sheer long-sleeve mesh top over a red-and-white vertical-striped dress, and her hand-made necklace of matte walnut-brown wooden beads knotted on a dark cord with a flat branch-slice medallion carved with letters.
+
+Zeinab: the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron.
+
+Sally: the younger woman from @Sally: about 35, the same face as @Sally, shoulder-length curly brown hair, natural makeup, a black top under a sleeveless red-and-navy geometric print dress.
+
+Every shot prompt also carries a binding sentence, for example: "@Abeer is the face, hair and clothes of the seated woman; @Zeinab is the face and clothes of the housekeeper; @Room is only the room." Attach only the references the shot needs.
+
 ### Standing instruction cards for project Necklace v2
 
 Add each as one card, title then text, all enabled.
@@ -87,6 +97,10 @@ Send the shot prompt to the video model as written. Do not add characters, actio
 5. Clean frame
 
 No music, no on-screen text, no subtitles, no captions, no logos.
+
+6. Characters are canon
+
+Abeer is the older woman from @Abeer: about 55, the same face as @Abeer, long black wavy hair falling past her shoulders, glamorous evening makeup with dark smoky eyes and dark red lips, a black sheer long-sleeve mesh top over a red-and-white vertical-striped dress, and her hand-made necklace of matte walnut-brown wooden beads knotted on a dark cord with a flat branch-slice medallion carved with letters. Zeinab is the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron. Sally is the younger woman from @Sally: about 35, the same face as @Sally, shoulder-length curly brown hair, natural makeup, a black top under a sleeveless red-and-navy geometric print dress. Keep these descriptions in every video prompt, next to the matching reference, and never change a character's age, hair or clothes.
 
 ### Pre-flight message, pasted before each shot (replace the prompt)
 
@@ -115,25 +129,20 @@ Control line for every video prompt:
 
 Generate video only, using the default video settings and the attached references. Do not generate images and do not ask follow-up questions.
 
-### P1 · references A (@Abeer) + D (@Necklace) + E (@Room) · final cut uses 1.0s
+### P1 · references A (@Abeer) + C (@Zeinab) + E (@Room) · final cut uses 1.0s
 
-Framing per Sameh (2026-10-11): medium shot, medallion visible, Abeer's eye line toward the maid. Takes 1 and 2 missed
-(uniformed maid in frame; then Abeer mouthing the off-screen line plus a blurred figure at the edge). The Flow agent's
-own diagnosis: quoted dialogue gets attached to the visible person unless mouth closure is forced and the line is
-marked voiceover-only; naming the maid's position put a person at the edge; the noun "maid" pulled in a Western
-uniform. v5 applies all three. Run the pre-flight first and get the agent's point 4 text before generating.
+v6 (2026-10-12). Take 4 (v4, 360p draft) proved the staging: the housekeeper speaks, the seated woman stays silent and
+looks up at her, medallion in frame. But the seated woman was not Abeer and the housekeeper looked 30. v6 restates
+each character line next to her reference, binds references explicitly, and drops @Necklace (A3 already wears it).
+Generate at 720p like P3, which held both faces.
 
-One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot of the older woman from @Abeer sitting on the gilded burgundy sofa from @Room, heavy brown drapes behind her, framed from the waist up so that her necklace from @Necklace is clearly visible on her chest: matte walnut-brown wooden beads knotted on a dark cord and the flat branch-slice medallion with carved letters, over her black sheer long-sleeve top and red-and-white striped dress. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME; nobody else is present in the frame or at its edges. She sits still and gazes slightly off-camera toward the right, with a mild, polite, questioning expression. Audio: an older woman's voice, entirely off-camera voiceover audio only, says in Egyptian Arabic: "إيه ده؟" THE WOMAN ON THE SOFA'S MOUTH REMAINS COMPLETELY CLOSED THROUGHOUT THE SHOT WITH ZERO LIP MOVEMENT; she does not speak. Warm side daylight. No music, no on-screen text, no subtitles.
-
-Fallback if v5 still mouths the line (P1 v4, speaker in frame; attach C (@Zeinab) as a fourth reference):
-
-One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot in the living room from @Room. The older woman from @Abeer sits on the gilded burgundy sofa, heavy brown drapes behind her, framed from the waist up so that her necklace from @Necklace is clearly visible on her chest: matte walnut-brown wooden beads knotted on a dark cord and the flat branch-slice medallion with carved letters, over her black sheer long-sleeve top and red-and-white striped dress. At the right edge of the frame, seen from the side and slightly behind, stands the housekeeper from @Zeinab in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, holding a white tea tray and bending slightly toward the seated woman. The seated woman turns her head and looks up at the housekeeper. The woman in the dark headscarf and dark red apron looks at the necklace and says in Egyptian Arabic: "إيه ده؟" The seated woman does not speak and keeps her mouth closed. Warm side daylight. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes behind it. @Abeer is the face, hair and clothes of the seated woman; @Zeinab is the face and clothes of the housekeeper; @Room is only the room. The seated woman is the older woman from @Abeer: about 55, the same face as @Abeer, long black wavy hair falling past her shoulders, glamorous evening makeup with dark smoky eyes and dark red lips, a black sheer long-sleeve mesh top over a red-and-white vertical-striped dress, and her hand-made necklace of matte walnut-brown wooden beads knotted on a dark cord with a flat branch-slice medallion carved with letters, clearly visible on her chest; she is framed from the waist up. At the right edge of the frame, seen from the side, stands the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, holding a white tea tray and bending slightly toward the seated woman. The seated woman turns her head and looks up at the housekeeper. The housekeeper looks at the necklace and says in Egyptian Arabic: "إيه ده؟" THE SEATED WOMAN DOES NOT SPEAK AND KEEPS HER MOUTH CLOSED. Warm side daylight. No music, no on-screen text, no subtitles.
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 
 Framing per Sameh (2026-10-11): as before, but her look moves from the necklace up to the woman wearing it.
 
-One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. The veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, her eyes fixed on the necklace worn by the woman behind the camera, out of frame, then lifts her look up to the camera, to the woman's face, surprised, and points at it. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. The housekeeper, the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, her eyes fixed on the necklace worn by the woman behind the camera, out of frame, then lifts her look up to the camera, to the woman's face, surprised, and points at it. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
 
 ### P3 · references A (@Abeer) + B (@Sally) + E (@Room) · final cut uses 8.0s · TEST THIS FIRST
 
@@ -141,7 +150,7 @@ One continuous shot, no cuts, vertical 9:16, static camera at eye level. Two wom
 
 ### P4 · references C (@Zeinab) + E (@Room) · final cut uses 3.8s
 
-One continuous shot, no cuts, vertical 9:16. Medium close-up of the veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight, slight handheld push-in. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. Medium close-up of the housekeeper, the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight, slight handheld push-in. No music, no on-screen text, no subtitles.
 
 Save the downloads as `drafts/P{n}_{take}.mp4`, for example `drafts/P3_1.mp4` and `drafts/P3_2.mp4`.
 
