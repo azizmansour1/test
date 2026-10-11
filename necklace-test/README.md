@@ -18,7 +18,7 @@ gflow-cli cannot drive this account (see Status). The Claude session's job is to
 | "Unusual activity" | Flow's bot-score block, not a prompt problem. gflow's account-safety page: it is per browser profile, cool down 30–60 min, use the account by hand in real Chrome, and don't keep retrying. Incognito (Ctrl+Shift+N) also removes extensions, which Flow names as a cause. |
 | Flow project | "Necklace v2" holds the reference images. |
 | Step 3 | First P3 take received 2026-10-11 as drafts/P3_1.mp4: 10.0s, 720×1280, 24 fps, AAC stereo. 10s was offered with three references attached, so the 8s pin gflow measured does not apply in the agent composer. Speech runs 1.04s to 9.16s (8.12s), so both lines are inside the clip but overrun an 8.0s cut by about 0.12s. Credit cost measured: 15 credits for the one take, at 720p. Flow's resolution menu on this account offers 270p (draft) and 720p ("original"), not 360p. |
-| Step 4 | P1 take 1 received 2026-10-11 as drafts/P1_1.mp4: 10.0s, 720×1280. Medium shot, medallion clear, Abeer's eyes go up to the right at the maid, lips still; the maid's line sits at 3.41s to 3.72s. Flaw: from about 2.5s a stray figure in a black-and-white uniform, not Zeinab, enters the right edge. Handling: assemble with S1=3.15 and CROP1=612:1088:0:96, which removes her from the 1.0s window, or regenerate P1 with Zeinab's reference attached (15 credits). |
+| Step 4 | P1 take 1 received 2026-10-11 as drafts/P1_1.mp4: 10.0s, 720×1280. Medium shot, medallion clear, Abeer's eyes go up to the right at the maid, lips still; the maid's line sits at 3.41s to 3.72s. Flaw: from about 2.5s a stray figure in a black-and-white uniform, not Zeinab, enters the right edge. Not what the prompt asked for, so take 1 is rejected rather than cropped; P1 is re-prompted without naming a visible maid and regenerated. |
 | Step 2 | Done, 0 credits. Picks: A_abeer_3, B_sally_1, C_zeinab_2, D_necklace_5, E_room_2 (see prompts.md). Contact sheet: https://claude.ai/artifact/V2EH9qPnqDDzN6uvisHbcu |
 | MCP | `gflow mcp run --no-spend` is registered on the laptop. Leave it; it exposes no image or video tools. |
 | Drive folder | Holds "Necklace test – Veo handoff" (9 Oct, old plan: Veo 3.1 Fast, 8s). Superseded by prompts.md. |
@@ -82,6 +82,14 @@ If a line is cut, say so; see the note at the end of prompts.md.
 
 Sameh's direction (2026-10-11): work in story order. Batch 2 is P1 and P2 (P1 reframed as a medium shot with the medallion visible and Abeer's eye line on the maid; P2 with the maid's look moving from the necklace up to the woman wearing it), 1 take each, 720p, 10s, estimated 30 credits. P4 follows after review, 15 credits. Running total after all drafts: about 60 of 150.
 Save every clip as `necklace-test/drafts/P{n}_{take}.mp4`. No upscaling until you say so.
+
+## Tool findings so far (what Flow does with what we ask)
+
+- Omni 1.1 Flash with three references offers 10s on this account; the 8s pin gflow measured does not apply in the agent composer.
+- A 10s clip at 720p with references costs 15 credits. Flow offers 270p draft or 720p, not 360p.
+- Two speakers in one shot work: in P3 each line is spoken by the right woman with the other listening (visual check; Arabic wording to be confirmed by ear).
+- A character the prompt names is rendered even when described as off-screen: P1 take 1 put a generic uniformed maid at the frame edge. Fix under test: do not name a visible maid, state that the subject is alone in frame.
+- Eye-line directions are followed loosely: P3's host looked toward the camera and left rather than off-screen right; P1's Abeer looked up-right as asked.
 
 ## Mirror to Drive
 

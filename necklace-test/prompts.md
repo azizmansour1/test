@@ -70,9 +70,10 @@ Generate video only, using the default video settings and the attached reference
 
 ### P1 · references A (@Abeer) + D (@Necklace) + E (@Room) · final cut uses 1.0s
 
-Framing per Sameh (2026-10-11): medium shot, medallion visible, Abeer's eye line on the maid.
+Framing per Sameh (2026-10-11): medium shot, medallion visible, Abeer's eye line on the maid. Take 1 put a generic
+uniformed maid in frame although the prompt said off-screen, so this version never names a visible maid.
 
-One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot of the older woman from @Abeer sitting on the gilded burgundy sofa from @Room, heavy brown drapes behind her, framed from the waist up so that her necklace from @Necklace is clearly visible on her chest: matte walnut-brown wooden beads knotted on a dark cord and the flat branch-slice medallion with carved letters, lying over her black sheer long-sleeve top and red-and-white striped dress. She sits still and looks past the camera to the right, at the maid who stands off-screen beside the camera, with a mild, polite, questioning expression. From off-screen, the maid's voice, an older woman, says in Egyptian Arabic: "إيه ده؟" The woman on the sofa does not speak. Warm side daylight. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot of the older woman from @Abeer sitting alone on the gilded burgundy sofa from @Room, heavy brown drapes behind her, framed from the waist up so that her necklace from @Necklace is clearly visible on her chest: matte walnut-brown wooden beads knotted on a dark cord and the flat branch-slice medallion with carved letters, lying over her black sheer long-sleeve top and red-and-white striped dress. She is the only person in the frame, and nobody enters the shot. She sits still and looks up and to the right, past the camera, toward someone standing just out of shot, with a mild, polite, questioning expression. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" The woman on the sofa does not speak. Warm side daylight. No music, no on-screen text, no subtitles.
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 
