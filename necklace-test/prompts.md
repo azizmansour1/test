@@ -10,6 +10,9 @@ the reference is for. If Flow names an asset differently, use its name.
 
 Paste the control line and the prompt together, as one message.
 
+**Picks so far (2026-10-11):** C = C2 (Zeinab, bib apron). The first A and D images were too polished; A and D are
+being regenerated with a hand-made necklace (v2 prompts below). B and E are still open; Claude suggested B1 and E2.
+
 ---
 
 ## Step 2 · Reference images
@@ -21,9 +24,9 @@ Control line for every image prompt:
 
 Generate exactly two images using the default image settings. Do not generate video and do not ask follow-up questions.
 
-### A · Abeer
+### A · Abeer (v2, 2026-10-11: hand-made necklace; regenerate as A_abeer_3 and A_abeer_4)
 
-One photorealistic portrait photo, vertical 9:16. A fictional Egyptian woman, about 55, long dark wavy hair, glamorous evening makeup. She wears a black sheer long-sleeve top over a red-and-white vertical-striped dress, and a necklace of large round wooden beads with one round carved brown wooden pendant with a gold flower motif. Waist-up, facing the camera, neutral expression. Soft warm light, plain beige background. Invented face that does not resemble any real person. No text.
+One photorealistic portrait photo, vertical 9:16. A fictional Egyptian woman, about 55, long dark wavy hair, glamorous evening makeup. She wears a black sheer long-sleeve top over a red-and-white vertical-striped dress, and a hand-made necklace of large, slightly uneven, matte brown wooden beads strung on a knotted brown cord, with one flat round wooden pendant carrying a simple hand-painted gold flower. Waist-up, facing the camera, neutral expression. Soft warm light, plain beige background. Invented face that does not resemble any real person. No text.
 
 ### B · Sally
 
@@ -33,9 +36,9 @@ One photorealistic portrait photo, vertical 9:16. A fictional Egyptian woman, ab
 
 One photorealistic portrait photo, vertical 9:16. A fictional Egyptian housekeeper, about 55, kind tired face. She wears a dark headscarf (hijab) fully covering her hair and neck, a mint-green button-up shirt, and a red apron tied at the waist. Waist-up, facing the camera, neutral expression. Soft warm light, plain beige background. Invented face that does not resemble any real person. No text.
 
-### D · Necklace
+### D · Necklace (v2, 2026-10-11: hand-made look; regenerate as D_necklace_3 and D_necklace_4)
 
-One close-up product photo, vertical 9:16. A necklace of large round wooden beads with one round brown wooden pendant carved with a gold flower motif, laid flat on a plain white background. Sharp focus, soft even light. No people, no text.
+One close-up product photo, vertical 9:16. A hand-made necklace of the kind sold at a craft stall: large round wooden beads, roughly sanded and slightly uneven in size, matte natural brown wood with visible grain, strung on a plain brown cotton cord with small knots between the beads and a simple knotted tie at the back. One flat round pendant of plain brown wood, hand-cut, with a simple gold flower painted on by hand, the paint slightly uneven. No metal clasp, no varnish, no polish. Laid flat on a plain white background. Sharp focus, soft even light. No people, no text.
 
 ### E · Room
 
@@ -44,6 +47,8 @@ One photorealistic photo, vertical 9:16, of an empty upper-class Cairo living ro
 Save the downloads as:
 `refs/A_abeer_1.png`, `refs/A_abeer_2.png`, `refs/B_sally_1.png`, `refs/B_sally_2.png`, `refs/C_zeinab_1.png`,
 `refs/C_zeinab_2.png`, `refs/D_necklace_1.png`, `refs/D_necklace_2.png`, `refs/E_room_1.png`, `refs/E_room_2.png`.
+Flow delivered JPEGs, so the saved files are `.jpg`. The v2 reruns go to `refs/A_abeer_3.jpg`, `refs/A_abeer_4.jpg`,
+`refs/D_necklace_3.jpg`, `refs/D_necklace_4.jpg`.
 
 ---
 
@@ -59,7 +64,7 @@ Generate video only, using the default video settings and the attached reference
 
 ### P1 · references A (@Abeer) + D (@Necklace) · final cut uses 1.0s
 
-One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on the older woman's chest: large round wooden beads and one round carved brown wooden pendant with a gold flower motif, lying over her black sheer long-sleeve top and her red-and-white vertical-striped dress. Her face stays out of frame. Static camera, shallow focus, soft warm light. @Abeer is the reference for the woman and her clothes; @Necklace is the reference for the necklace. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" Nobody on screen speaks. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on the older woman's chest: large, slightly uneven matte wooden beads on a knotted cord and one flat round wooden pendant with a hand-painted gold flower, lying over her black sheer long-sleeve top and her red-and-white vertical-striped dress. Her face stays out of frame. Static camera, shallow focus, soft warm light. @Abeer is the reference for the woman and her clothes; @Necklace is the reference for the necklace. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" Nobody on screen speaks. No music, no on-screen text, no subtitles.
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 
