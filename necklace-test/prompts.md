@@ -10,11 +10,11 @@ the reference is for. If Flow names an asset differently, use its name.
 
 Paste the control line and the prompt together, as one message.
 
-**Picks so far (2026-10-11):** C = C2 (Zeinab, bib apron). D = `refs/D_necklace_4.jpg`, the hand-made necklace from the
-rerun: about twenty matte walnut-brown wooden beads knotted on a dark brown cord, tied at the back, with a flat branch-slice
-pendant, bark edge visible, carrying a hand-painted gold six-petal daisy. A is being regenerated wearing exactly that
-necklace, with the D image attached as a reference. B and E are still open; Claude suggested B1 and E2. B and E are still open; Claude suggested B1 and E2.
-
+**Picks (2026-10-11):** A = `refs/A_abeer_3.jpg` · B = `refs/B_sally_1.jpg` · C = `refs/C_zeinab_2.jpg` ·
+D = `refs/D_necklace_5.jpg` · E = `refs/E_room_2.jpg`.
+The necklace is the hand-made one: about twenty matte walnut-brown wooden beads knotted on a dark brown cord, and a flat
+branch-slice pendant, bark edge visible, with short rows of ancient-looking letters carved into it. Abeer wears exactly
+that necklace in A_abeer_3. (D_necklace_4 with the gold daisy is superseded.)
 ---
 
 ## Step 2 · Reference images
@@ -26,7 +26,7 @@ Control line for every image prompt:
 
 Generate exactly two images using the default image settings. Do not generate video and do not ask follow-up questions.
 
-### A · Abeer (v3, 2026-10-11: wears the picked necklace; regenerate as A_abeer_3 and A_abeer_4)
+### A · Abeer (done: A_abeer_3.jpg picked on 2026-10-11; prompt kept for the record)
 
 Attach `D_necklace_4.jpg` with Add / @ first, then use this control line instead of the usual one:
 
@@ -42,7 +42,7 @@ One photorealistic portrait photo, vertical 9:16. A fictional Egyptian woman, ab
 
 One photorealistic portrait photo, vertical 9:16. A fictional Egyptian housekeeper, about 55, kind tired face. She wears a dark headscarf (hijab) fully covering her hair and neck, a mint-green button-up shirt, and a red apron tied at the waist. Waist-up, facing the camera, neutral expression. Soft warm light, plain beige background. Invented face that does not resemble any real person. No text.
 
-### D · Necklace (done: D_necklace_4.jpg picked on 2026-10-11; prompt kept for the record)
+### D · Necklace (done: D_necklace_5.jpg picked on 2026-10-11, carved-letter pendant; prompt kept for the record)
 
 One close-up product photo, vertical 9:16. A hand-made necklace of the kind sold at a craft stall: many round beads of pale natural wood, light honey colour with visible grain, roughly sanded, slightly uneven in size, strung close together on a plain cotton cord with a simple knotted tie at the back. One flat round pendant of the same pale wood, hand-cut, with a simple five-petal flower painted on it in gold by hand, the paint slightly uneven. Matte, no varnish, no polish, no metal clasp. Laid flat on a plain white background. Sharp focus, soft even light. No people, no text.
 
@@ -70,7 +70,7 @@ Generate video only, using the default video settings and the attached reference
 
 ### P1 · references A (@Abeer) + D (@Necklace) · final cut uses 1.0s
 
-One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on the older woman's chest: about twenty round matte walnut-brown wooden beads knotted on a dark brown cord, and one flat branch-slice pendant with bark edge and a hand-painted gold six-petal daisy, lying over her black sheer long-sleeve top and her red-and-white vertical-striped dress. Her face stays out of frame. Static camera, shallow focus, soft warm light. @Abeer is the reference for the woman and her clothes; @Necklace is the reference for the necklace. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" Nobody on screen speaks. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on the older woman's chest: about twenty round matte walnut-brown wooden beads knotted on a dark brown cord, and one flat branch-slice pendant with bark edge and short rows of ancient-looking letters carved into it, lying over her black sheer long-sleeve top and her red-and-white vertical-striped dress. Her face stays out of frame. Static camera, shallow focus, soft warm light. @Abeer is the reference for the woman and her clothes; @Necklace is the reference for the necklace. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" Nobody on screen speaks. No music, no on-screen text, no subtitles.
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 

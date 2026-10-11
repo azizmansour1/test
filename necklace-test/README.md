@@ -11,12 +11,13 @@ gflow-cli cannot drive this account (see Status). The Claude session's job is to
 
 | Item | State |
 |---|---|
-| Credits | 0 used. Last balance read in Flow: 1,022 (your screenshot). Hard stop at 150 used. |
+| Credits | 0 used. Last balance read in Flow: 1,050 (after Step 2). Hard stop at 150 used. |
 | gflow-cli | Laptop has 0.83.1. 0.83.2 was released 2026-10-11 with locale, upscale and auth-status fixes only. Neither version can drive this account. |
 | Blocker | Google serves amjser@gmail.com an **agent-only composer** on flow.google.com. gflow exits 25, non-retryable. Its known-issues page says no flag, `--ui-mode` or profile change reaches it, that generating from the Flow web UI still works, and that a driver is not implemented (gflow-cli issue #799, open). |
 | Credits via gflow | `gflow credits user` does not work on accounts moved to flow.google.com (gflow-cli issue #795, open). Read the balance in Flow's own UI. |
 | "Unusual activity" | Flow's bot-score block, not a prompt problem. gflow's account-safety page: it is per browser profile, cool down 30–60 min, use the account by hand in real Chrome, and don't keep retrying. Incognito (Ctrl+Shift+N) also removes extensions, which Flow names as a cause. |
-| Flow project | "Necklace v2" exists and is empty. |
+| Flow project | "Necklace v2" holds the reference images. |
+| Step 2 | Done, 0 credits. Picks: A_abeer_3, B_sally_1, C_zeinab_2, D_necklace_5, E_room_2 (see prompts.md). Contact sheet: https://claude.ai/artifact/V2EH9qPnqDDzN6uvisHbcu |
 | MCP | `gflow mcp run --no-spend` is registered on the laptop. Leave it; it exposes no image or video tools. |
 | Drive folder | Holds "Necklace test – Veo handoff" (9 Oct, old plan: Veo 3.1 Fast, 8s). Superseded by prompts.md. |
 
