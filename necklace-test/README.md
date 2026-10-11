@@ -17,6 +17,7 @@ gflow-cli cannot drive this account (see Status). The Claude session's job is to
 | Credits via gflow | `gflow credits user` does not work on accounts moved to flow.google.com (gflow-cli issue #795, open). Read the balance in Flow's own UI. |
 | "Unusual activity" | Flow's bot-score block, not a prompt problem. gflow's account-safety page: it is per browser profile, cool down 30–60 min, use the account by hand in real Chrome, and don't keep retrying. Incognito (Ctrl+Shift+N) also removes extensions, which Flow names as a cause. |
 | Flow project | "Necklace v2" holds the reference images. |
+| Step 3 | First P3 take received 2026-10-11 as drafts/P3_1.mp4: 10.0s, 720×1280, 24 fps, AAC stereo. 10s was offered with three references attached, so the 8s pin gflow measured does not apply in the agent composer. Speech runs 1.04s to 9.16s (8.12s), so both lines are inside the clip but overrun an 8.0s cut by about 0.12s. Credit cost: pending the balance reading. |
 | Step 2 | Done, 0 credits. Picks: A_abeer_3, B_sally_1, C_zeinab_2, D_necklace_5, E_room_2 (see prompts.md). Contact sheet: https://claude.ai/artifact/V2EH9qPnqDDzN6uvisHbcu |
 | MCP | `gflow mcp run --no-spend` is registered on the laptop. Leave it; it exposes no image or video tools. |
 | Drive folder | Holds "Necklace test – Veo handoff" (9 Oct, old plan: Veo 3.1 Fast, 8s). Superseded by prompts.md. |
