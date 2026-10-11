@@ -11,13 +11,13 @@ gflow-cli cannot drive this account (see Status). The Claude session's job is to
 
 | Item | State |
 |---|---|
-| Credits | 0 used. Last balance read in Flow: 1,050 (after Step 2). Hard stop at 150 used. |
+| Credits | 15 used (one P3 take). Balance 1,035 after Step 3. Hard stop at 150 used, so 135 left. |
 | gflow-cli | Laptop has 0.83.1. 0.83.2 was released 2026-10-11 with locale, upscale and auth-status fixes only. Neither version can drive this account. |
 | Blocker | Google serves amjser@gmail.com an **agent-only composer** on flow.google.com. gflow exits 25, non-retryable. Its known-issues page says no flag, `--ui-mode` or profile change reaches it, that generating from the Flow web UI still works, and that a driver is not implemented (gflow-cli issue #799, open). |
 | Credits via gflow | `gflow credits user` does not work on accounts moved to flow.google.com (gflow-cli issue #795, open). Read the balance in Flow's own UI. |
 | "Unusual activity" | Flow's bot-score block, not a prompt problem. gflow's account-safety page: it is per browser profile, cool down 30–60 min, use the account by hand in real Chrome, and don't keep retrying. Incognito (Ctrl+Shift+N) also removes extensions, which Flow names as a cause. |
 | Flow project | "Necklace v2" holds the reference images. |
-| Step 3 | First P3 take received 2026-10-11 as drafts/P3_1.mp4: 10.0s, 720×1280, 24 fps, AAC stereo. 10s was offered with three references attached, so the 8s pin gflow measured does not apply in the agent composer. Speech runs 1.04s to 9.16s (8.12s), so both lines are inside the clip but overrun an 8.0s cut by about 0.12s. Credit cost: pending the balance reading. |
+| Step 3 | First P3 take received 2026-10-11 as drafts/P3_1.mp4: 10.0s, 720×1280, 24 fps, AAC stereo. 10s was offered with three references attached, so the 8s pin gflow measured does not apply in the agent composer. Speech runs 1.04s to 9.16s (8.12s), so both lines are inside the clip but overrun an 8.0s cut by about 0.12s. Credit cost measured: 15 credits for the one take, at 720p. Flow's resolution menu on this account offers 270p (draft) and 720p ("original"), not 360p. |
 | Step 2 | Done, 0 credits. Picks: A_abeer_3, B_sally_1, C_zeinab_2, D_necklace_5, E_room_2 (see prompts.md). Contact sheet: https://claude.ai/artifact/V2EH9qPnqDDzN6uvisHbcu |
 | MCP | `gflow mcp run --no-spend` is registered on the laptop. Leave it; it exposes no image or video tools. |
 | Drive folder | Holds "Necklace test – Veo handoff" (9 Oct, old plan: Veo 3.1 Fast, 8s). Superseded by prompts.md. |
@@ -61,7 +61,7 @@ Then Claude shows you the images and waits for your picks (one per character, th
 Panel 3, 2 takes, 360p. The approval statement Claude gives before you click generate:
 
 - Model: Omni 1.1 Flash (Flow's current default; if the list shows only "Omni Flash", that one).
-- Resolution: 360p.
+- Resolution: 720p (Flow offers 270p draft or 720p original; 720p measured at 15 credits per 10s take).
 - Duration: 10s if Flow still offers it once the three references are attached, otherwise 8s. gflow measured on
   this host that reference-to-video is pinned to 8s and that picking 4s or 6s silently drops the references;
   whether the agent composer behaves the same is unmeasured.
@@ -79,7 +79,7 @@ If a line is cut, say so; see the note at the end of prompts.md.
 
 ## Step 4 · Drafts (needs "approve")
 
-Panels 1, 2 and 4, 1 take each, 360p, same procedure with count x1 and the references named per panel.
+Panels 1, 2 and 4, 1 take each, 720p and 10s like P3, same procedure with count x1 and the references named per panel. Estimated 45 credits, bringing the total to 60.
 Save every clip as `necklace-test/drafts/P{n}_{take}.mp4`. No upscaling until you say so.
 
 ## Mirror to Drive

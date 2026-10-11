@@ -60,7 +60,7 @@ Flow delivered JPEGs, so the saved files are `.jpg`. The v2 reruns go to `refs/A
 
 ## Steps 3–4 · Shot prompts
 
-One shot per prompt. Settings first (Agent settings → default video generation): 9:16, 360p, Omni 1.1 Flash,
+One shot per prompt. Settings first (Agent settings → default video generation): 9:16, 720p, 10s, Omni 1.1 Flash,
 duration and count as stated in the approval for that batch. Attach only the references named for the panel.
 Nothing is generated before an "approve" in chat for that batch.
 
