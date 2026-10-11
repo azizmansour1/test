@@ -74,7 +74,7 @@ One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 
-One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. The veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a red apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, stares toward the camera in surprise, and points at the camera. The woman in the dark headscarf and red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. The veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, stares toward the camera in surprise, and points at the camera. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
 
 ### P3 · references A (@Abeer) + B (@Sally) + E (@Room) · final cut uses 8.0s · TEST THIS FIRST
 
@@ -82,7 +82,7 @@ One continuous shot, no cuts, vertical 9:16, static camera at eye level. Two wom
 
 ### P4 · references C (@Zeinab) + E (@Room) · final cut uses 3.8s
 
-One continuous shot, no cuts, vertical 9:16. Medium close-up of the veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a red apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together. The woman in the dark headscarf and red apron says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight, slight handheld push-in. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16. Medium close-up of the veiled housekeeper from @Zeinab, in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight, slight handheld push-in. No music, no on-screen text, no subtitles.
 
 Save the downloads as `drafts/P{n}_{take}.mp4`, for example `drafts/P3_1.mp4` and `drafts/P3_2.mp4`.
 
