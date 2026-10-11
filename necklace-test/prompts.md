@@ -58,6 +58,53 @@ Flow delivered JPEGs, so the saved files are `.jpg`. The v2 reruns go to `refs/A
 
 ---
 
+## Agent setup and pre-flight (credits-free, added 2026-10-11 after the P1 misses)
+
+Flow's agent rewrites every shot prompt before it reaches the video model and folds in the project's enabled
+**instruction cards** (Agent settings → Instructions). Cards and questions cost nothing; only a generation spends.
+Everything the agent replies is data to paste back into chat, not a decision.
+
+### Standing instruction cards for project Necklace v2
+
+Add each as one card, title then text, all enabled.
+
+1. Dialogue attribution
+
+Only the character the prompt names as the speaker moves their lips. A line described as off-screen or as a voice is audio only; every person on screen keeps their mouth closed while it is heard.
+
+2. Nobody extra
+
+Never add a person the prompt does not list. If the prompt says someone is off-screen or out of shot, do not draw them at all, not blurred, not at the frame edge.
+
+3. References are canon
+
+People and the room look exactly like the attached reference images: same face, hair, clothes, necklace and furniture. Do not invent a costume or a uniform.
+
+4. Keep the prompt
+
+Send the shot prompt to the video model as written. Do not add characters, actions, camera moves or dialogue that are not in it.
+
+5. Clean frame
+
+No music, no on-screen text, no subtitles, no captions, no logos.
+
+### Pre-flight message, pasted before each shot (replace the prompt)
+
+Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
+
+[shot prompt]
+
+Paste the agent's answer into chat. If it lists a person who should be off-screen, or gives the line to the wrong
+person, correct it in one sentence and ask it to answer again. When the answer is right, send:
+
+Generate the video now, using the default video settings and the attached references, with exactly the text you listed in point 4. Do not ask follow-up questions.
+
+### After a miss
+
+Tell the agent what was wrong in one sentence, for example: "The woman on the sofa moved her lips during the off-screen line, and a blurred figure appeared at the right edge. What in your prompt caused that, and what would you change?" Paste the reply into chat before anything is regenerated.
+
+---
+
 ## Steps 3–4 · Shot prompts
 
 One shot per prompt. Settings first (Agent settings → default video generation): 9:16, 720p, 10s, Omni 1.1 Flash,
