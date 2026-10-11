@@ -10,8 +10,10 @@ the reference is for. If Flow names an asset differently, use its name.
 
 Paste the control line and the prompt together, as one message.
 
-**Picks so far (2026-10-11):** C = C2 (Zeinab, bib apron). The first A and D images were too polished; A and D are
-being regenerated with a hand-made necklace in the style of D2, pale wood and a five-petal gold flower (v2 prompts below). B and E are still open; Claude suggested B1 and E2.
+**Picks so far (2026-10-11):** C = C2 (Zeinab, bib apron). D = `refs/D_necklace_4.jpg`, the hand-made necklace from the
+rerun: about twenty matte walnut-brown wooden beads knotted on a dark brown cord, tied at the back, with a flat branch-slice
+pendant, bark edge visible, carrying a hand-painted gold six-petal daisy. A is being regenerated wearing exactly that
+necklace, with the D image attached as a reference. B and E are still open; Claude suggested B1 and E2. B and E are still open; Claude suggested B1 and E2.
 
 ---
 
@@ -24,9 +26,13 @@ Control line for every image prompt:
 
 Generate exactly two images using the default image settings. Do not generate video and do not ask follow-up questions.
 
-### A · Abeer (v2, 2026-10-11: hand-made necklace; regenerate as A_abeer_3 and A_abeer_4)
+### A · Abeer (v3, 2026-10-11: wears the picked necklace; regenerate as A_abeer_3 and A_abeer_4)
 
-One photorealistic portrait photo, vertical 9:16. A fictional Egyptian woman, about 55, long dark wavy hair, glamorous evening makeup. She wears a black sheer long-sleeve top over a red-and-white vertical-striped dress, and a hand-made necklace of many round pale-wood beads, light honey colour, slightly uneven, strung close together on a cotton cord, with one flat round pale-wood pendant carrying a simple hand-painted five-petal gold flower. Waist-up, facing the camera, neutral expression. Soft warm light, plain beige background. Invented face that does not resemble any real person. No text.
+Attach `D_necklace_4.jpg` with Add / @ first, then use this control line instead of the usual one:
+
+Generate exactly two images using the default image settings and the attached reference image. Do not generate video and do not ask follow-up questions.
+
+One photorealistic portrait photo, vertical 9:16. A fictional Egyptian woman, about 55, long dark wavy hair, glamorous evening makeup. She wears a black sheer long-sleeve top over a red-and-white vertical-striped dress, and exactly the necklace shown in @Necklace: about twenty round matte wooden beads, medium walnut brown, slightly uneven, knotted on a dark brown cord, with a flat pendant cut as a slice of a branch, bark edge visible, carrying a hand-painted gold six-petal daisy. Waist-up, facing the camera, neutral expression. Soft warm light, plain beige background. Invented face that does not resemble any real person. No text.
 
 ### B · Sally
 
@@ -36,7 +42,7 @@ One photorealistic portrait photo, vertical 9:16. A fictional Egyptian woman, ab
 
 One photorealistic portrait photo, vertical 9:16. A fictional Egyptian housekeeper, about 55, kind tired face. She wears a dark headscarf (hijab) fully covering her hair and neck, a mint-green button-up shirt, and a red apron tied at the waist. Waist-up, facing the camera, neutral expression. Soft warm light, plain beige background. Invented face that does not resemble any real person. No text.
 
-### D · Necklace (v2, 2026-10-11: hand-made look; regenerate as D_necklace_3 and D_necklace_4)
+### D · Necklace (done: D_necklace_4.jpg picked on 2026-10-11; prompt kept for the record)
 
 One close-up product photo, vertical 9:16. A hand-made necklace of the kind sold at a craft stall: many round beads of pale natural wood, light honey colour with visible grain, roughly sanded, slightly uneven in size, strung close together on a plain cotton cord with a simple knotted tie at the back. One flat round pendant of the same pale wood, hand-cut, with a simple five-petal flower painted on it in gold by hand, the paint slightly uneven. Matte, no varnish, no polish, no metal clasp. Laid flat on a plain white background. Sharp focus, soft even light. No people, no text.
 
@@ -64,7 +70,7 @@ Generate video only, using the default video settings and the attached reference
 
 ### P1 · references A (@Abeer) + D (@Necklace) · final cut uses 1.0s
 
-One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on the older woman's chest: many round pale-wood beads, slightly uneven, on a cotton cord, and one flat round pale-wood pendant with a hand-painted five-petal gold flower, lying over her black sheer long-sleeve top and her red-and-white vertical-striped dress. Her face stays out of frame. Static camera, shallow focus, soft warm light. @Abeer is the reference for the woman and her clothes; @Necklace is the reference for the necklace. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" Nobody on screen speaks. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16. Extreme close-up of the necklace on the older woman's chest: about twenty round matte walnut-brown wooden beads knotted on a dark brown cord, and one flat branch-slice pendant with bark edge and a hand-painted gold six-petal daisy, lying over her black sheer long-sleeve top and her red-and-white vertical-striped dress. Her face stays out of frame. Static camera, shallow focus, soft warm light. @Abeer is the reference for the woman and her clothes; @Necklace is the reference for the necklace. From off-screen, an older woman's voice says in Egyptian Arabic: "إيه ده؟" Nobody on screen speaks. No music, no on-screen text, no subtitles.
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 
