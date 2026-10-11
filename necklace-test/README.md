@@ -89,7 +89,7 @@ Save every clip as `necklace-test/drafts/P{n}_{take}.mp4`. No upscaling until yo
 - A 10s clip at 720p with references costs 15 credits. Flow offers 270p draft or 720p, not 360p.
 - Two speakers in one shot work: in P3 each line is spoken by the right woman with the other listening (visual check; Arabic wording to be confirmed by ear).
 - A character the prompt names is rendered even when described as off-screen: P1 take 1 put a generic uniformed maid at the frame edge.
-- An off-screen voice over a solo shot is not honoured: P1 take 2 (nobody named, "alone in frame") made the visible woman mouth the line, and still rendered a blurred figure at the edge for about 7s. Flow attributes dialogue to whoever is visible. Working pattern: put the speaker in frame with her reference attached (P1 v4).
+- An off-screen voice over a solo shot is not honoured: P1 take 2 (nobody named, "alone in frame") made the visible woman mouth the line, and still rendered a blurred figure at the edge for about 7s. Flow attributes dialogue to whoever is visible. Asked why (credits-free), the Flow agent said the same: quoted dialogue binds to the visible subject unless mouth closure is forced and the line is marked voiceover-only; naming the maid's position placed a figure at the edge; the noun "maid" pulled in a Western uniform. Under test next: P1 v5 with those three fixes; fallback P1 v4 with the speaker in frame.
 - Eye-line directions are followed loosely: P3's host looked toward the camera and left rather than off-screen right; P1's Abeer looked up-right as asked.
 
 ## Mirror to Drive

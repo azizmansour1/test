@@ -115,12 +115,17 @@ Control line for every video prompt:
 
 Generate video only, using the default video settings and the attached references. Do not generate images and do not ask follow-up questions.
 
-### P1 · references A (@Abeer) + D (@Necklace) + E (@Room) + C (@Zeinab) · final cut uses 1.0s
+### P1 · references A (@Abeer) + D (@Necklace) + E (@Room) · final cut uses 1.0s
 
-Framing per Sameh (2026-10-11): medium shot, medallion visible, Abeer's eye line on the maid. Take 1 (maid named as
-off-screen) put a generic uniformed maid in frame. Take 2 (nobody named, "alone in frame") made Abeer mouth the
-off-screen line and still put a blurred figure at the edge. Flow gives dialogue to whoever is visible, so v4 puts the
-speaker in frame with her reference attached.
+Framing per Sameh (2026-10-11): medium shot, medallion visible, Abeer's eye line toward the maid. Takes 1 and 2 missed
+(uniformed maid in frame; then Abeer mouthing the off-screen line plus a blurred figure at the edge). The Flow agent's
+own diagnosis: quoted dialogue gets attached to the visible person unless mouth closure is forced and the line is
+marked voiceover-only; naming the maid's position put a person at the edge; the noun "maid" pulled in a Western
+uniform. v5 applies all three. Run the pre-flight first and get the agent's point 4 text before generating.
+
+One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot of the older woman from @Abeer sitting on the gilded burgundy sofa from @Room, heavy brown drapes behind her, framed from the waist up so that her necklace from @Necklace is clearly visible on her chest: matte walnut-brown wooden beads knotted on a dark cord and the flat branch-slice medallion with carved letters, over her black sheer long-sleeve top and red-and-white striped dress. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME; nobody else is present in the frame or at its edges. She sits still and gazes slightly off-camera toward the right, with a mild, polite, questioning expression. Audio: an older woman's voice, entirely off-camera voiceover audio only, says in Egyptian Arabic: "إيه ده؟" THE WOMAN ON THE SOFA'S MOUTH REMAINS COMPLETELY CLOSED THROUGHOUT THE SHOT WITH ZERO LIP MOVEMENT; she does not speak. Warm side daylight. No music, no on-screen text, no subtitles.
+
+Fallback if v5 still mouths the line (P1 v4, speaker in frame; attach C (@Zeinab) as a fourth reference):
 
 One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot in the living room from @Room. The older woman from @Abeer sits on the gilded burgundy sofa, heavy brown drapes behind her, framed from the waist up so that her necklace from @Necklace is clearly visible on her chest: matte walnut-brown wooden beads knotted on a dark cord and the flat branch-slice medallion with carved letters, over her black sheer long-sleeve top and red-and-white striped dress. At the right edge of the frame, seen from the side and slightly behind, stands the housekeeper from @Zeinab in a dark headscarf covering her hair and neck, a mint-green button-up shirt and a dark red bib apron, holding a white tea tray and bending slightly toward the seated woman. The seated woman turns her head and looks up at the housekeeper. The woman in the dark headscarf and dark red apron looks at the necklace and says in Egyptian Arabic: "إيه ده؟" The seated woman does not speak and keeps her mouth closed. Warm side daylight. No music, no on-screen text, no subtitles.
 
