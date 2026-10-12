@@ -1,6 +1,6 @@
 # Necklace test — runbook (updated 2026-10-11)
 
-Goal: recreate the first 15s of the "necklace" sketch as a tooling test. Four panels, vertical 9:16,
+Goal: recreate the first 15s of the "necklace" sketch as a tooling test. The lasting output is [PLAYBOOK.md](PLAYBOOK.md): the rules for getting Flow to generate what we ask. Four panels, vertical 9:16,
 Egyptian Arabic dialogue, then compare with the original. Budget: hard stop at 150 Flow credits.
 
 Steps 2–4 happen in Flow **by hand, on your laptop**. A cloud session cannot reach your Chrome, and
@@ -11,7 +11,7 @@ gflow-cli cannot drive this account (see Status). The Claude session's job is to
 
 | Item | State |
 |---|---|
-| Credits | 60 used at 15 per take if P1 takes 1 to 3 cost the same as P3 (balance to be confirmed), 75 if P2 has run. Hard stop at 150 used. |
+| Credits | Balance 998 on 2026-10-12 (1,050 after images). Counted per take at 15: about 90 used (P3 + five P1 takes, one at 360p). Budgeting against 90, so about 60 left under the 150 hard stop: P1 v7, P2, P4 and one spare. |
 | gflow-cli | Laptop has 0.83.1. 0.83.2 was released 2026-10-11 with locale, upscale and auth-status fixes only. Neither version can drive this account. |
 | Blocker | Google serves amjser@gmail.com an **agent-only composer** on flow.google.com. gflow exits 25, non-retryable. Its known-issues page says no flag, `--ui-mode` or profile change reaches it, that generating from the Flow web UI still works, and that a driver is not implemented (gflow-cli issue #799, open). |
 | Credits via gflow | `gflow credits user` does not work on accounts moved to flow.google.com (gflow-cli issue #795, open). Read the balance in Flow's own UI. |
