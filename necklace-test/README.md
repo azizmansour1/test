@@ -28,19 +28,46 @@ the tool has nothing to offer on this composer.
 
 ## Linking Claude to Flow directly (laptop session)
 
-A cloud session cannot reach your laptop or your Chrome. For Claude to work in Flow itself, run Claude on the laptop:
+A cloud session cannot reach your laptop or your Chrome. For Claude to work in Flow itself, run Claude Code on the laptop
+with the Claude in Chrome extension. Checked against the official docs on 2026-10-13:
+https://code.claude.com/docs/en/chrome and https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome
 
-1. Get this branch onto the laptop: clone `azizmansour1/test` (or pull) and check out `claude/laughing-hawking-cntm6r`.
-   Copy the media you already have into `necklace-test/refs/` and `necklace-test/drafts/` (they are git-ignored).
-2. Start a session in that folder: the Claude Desktop app, or `claude remote-control` in a terminal there (it then shows up
-   in the Claude Code app).
-3. Give that session your real Chrome through the Claude in Chrome extension, with Flow open and signed in as
-   amjser@gmail.com by you. The exact setup labels may differ; follow the extension's own instructions.
-4. Paste the opening prompt below.
+1. **Get the branch onto the laptop** (PowerShell; `winget install Git.Git` first if `git` is missing):
+
+   ```
+   cd C:\FlutterProjects
+   git clone https://github.com/azizmansour1/test.git necklace-repo
+   cd necklace-repo
+   git checkout claude/laughing-hawking-cntm6r
+   ```
+
+   For the final assembly, copy your images into `necklace-test\refs\` and your clips into `necklace-test\drafts\`
+   with the names in prompts.md. Generation itself does not need them; Flow already holds the references.
+2. **Install the extension** in Google Chrome: open
+   https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn, click "Add to Chrome", sign in with
+   the same Claude account that Claude Code uses, pin it from the puzzle-piece menu, and grant its permissions.
+3. **Start Claude Code with Chrome** in the repo folder, using native Windows (not WSL):
+
+   ```
+   claude --chrome
+   ```
+
+   Press Enter on the one-time dialog. If asked, sign in with `/login` (an API key turns Chrome control off). Run `/chrome`:
+   it should show "Status: Enabled" and "Extension: Installed". If not, choose "Reconnect extension".
+4. **Open Flow yourself** in that Chrome, sign in as amjser@gmail.com, open project "Necklace v2", then paste the opening
+   prompt below into Claude Code.
+
+Notes from the docs:
+- You need to sit at the laptop for this. Remote Control (`claude remote-control`) does not document browser control.
+- Claude Desktop's own "computer use" on Windows treats browsers as view-only, and its built-in browser pane has no saved
+  logins, so neither replaces your signed-in Chrome.
+- On a login page or CAPTCHA, Claude pauses and asks you to act. The first action on flow.google.com shows a
+  "Claude in Chrome wants to" permission prompt; allow it for the session.
+- A JavaScript alert or confirm dialog blocks the browser tools; dismiss it by hand.
 
 What changes: Claude pastes each combined pre-flight message into Flow's chat, reads the agent's answer and diffs point 4,
 then stops and asks you for "approve". After your approve it sends the go message, waits, downloads the clip straight into
-`drafts/`, and runs the review checklist. No zips, no copy-paste.
+`drafts/`, and runs the review checklist.
 
 Risk to watch: Flow refused once with "unusual activity" and named page-modifying browser extensions as a possible cause.
 Start with credits-free steps only (the instruction cards and one pre-flight), at a human pace. If Flow pushes back, stop,
