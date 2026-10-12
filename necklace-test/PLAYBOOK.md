@@ -41,9 +41,9 @@ The balance can rise on its own (a refill of +28 was seen overnight), so count s
    reference and the character line.
 7. **Actions happen in the order written, and then stop.** "She looks up at her. The housekeeper says..." produced a look
    that ended before the line. Say what must hold during the line: "keeps her eyes on X's face for the rest of the shot,
-   including while X speaks; she never looks down."
+   including while X speaks; she never looks down." Confirmed in P1 take 6: the gaze held from 1s to the end.
 8. **Place the line in time.** Unplaced, a one-word line landed at 4.7s of a 10s clip. "About two seconds into the shot"
-   gives a usable in-point.
+   gives a usable in-point. Confirmed in P1 take 6: asked for about 2s, the line landed at 2.3s.
 9. **Two speakers in one shot work** when each line is attributed to a visible description and an action beat separates
    them ("She falls silent and glances at..."). Both lines landed on the right mouths in P3.
 10. **Eye-line directions are followed loosely.** "Turns toward someone off-screen right" became a look toward the camera.

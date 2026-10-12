@@ -143,7 +143,7 @@ One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium 
 ```
 Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
 
-One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. The housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, her eyes fixed on the necklace worn by the woman behind the camera, out of frame, then lifts her look up to the camera, to the woman's face, surprised, and points at it. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16, handheld feel at the eye level of a seated person. Medium shot in the living room from @Room: crystal chandelier, heavy brown drapes, gilded burgundy sofa behind her, marble coffee table. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME: the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron. She is bent over the marble table, holding a white tea tray with two glasses of tea in one hand. From the first frame her eyes are fixed on a point just below the camera lens, at chest height, and she freezes, surprised. About one second into the shot she lifts her eyes straight into the camera lens and points at the lens with her free hand, and she keeps looking into the lens for the rest of the shot. About one and a half seconds into the shot the housekeeper says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight. No music, no on-screen text, no subtitles.
 ```
 
 ### P4 · attach Zeinab C2, room E2 · save as drafts/P4_1.mp4
@@ -151,7 +151,7 @@ One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from
 ```
 Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
 
-One continuous shot, no cuts, vertical 9:16. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight, slight handheld push-in. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16, slight handheld push-in. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together, her eyes on the camera lens for the whole shot. About half a second into the shot the housekeeper says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight. No music, no on-screen text, no subtitles.
 ```
 
 ---
@@ -168,7 +168,7 @@ Generate video only, using the default video settings and the attached reference
 
 ### P1 · references A (@Abeer) + C (@Zeinab) + E (@Room) · final cut uses 1.0s
 
-v7 (2026-10-12): take 5 (v6) fixed both faces and the speaker, but Abeer looked down with her eyes lowered when the line
+v7 PASSED as take 6 (drafts/P1_6.mp4, 2026-10-13). v7 (2026-10-12): take 5 (v6) fixed both faces and the speaker, but Abeer looked down with her eyes lowered when the line
 came at 4.7s. v7 holds her gaze on the housekeeper for the whole shot and brings the line forward to about 2s.
 
 v6 (2026-10-12). Take 4 (v4, 360p draft) proved the staging: the housekeeper speaks, the seated woman stays silent and
@@ -180,9 +180,12 @@ One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium 
 
 ### P2 · references C (@Zeinab) + E (@Room) · final cut uses 2.2s
 
+v2 (2026-10-12), applying the playbook after P1 take 6 passed: no other person named (rule 5), exactly one person in
+frame, the look-up and the line placed in time (rule 8), the gaze held through the line (rule 7).
+
 Framing per Sameh (2026-10-11): as before, but her look moves from the necklace up to the woman wearing it.
 
-One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. The housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, her eyes fixed on the necklace worn by the woman behind the camera, out of frame, then lifts her look up to the camera, to the woman's face, surprised, and points at it. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16, handheld feel at the eye level of a seated person. Medium shot in the living room from @Room: crystal chandelier, heavy brown drapes, gilded burgundy sofa behind her, marble coffee table. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME: the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron. She is bent over the marble table, holding a white tea tray with two glasses of tea in one hand. From the first frame her eyes are fixed on a point just below the camera lens, at chest height, and she freezes, surprised. About one second into the shot she lifts her eyes straight into the camera lens and points at the lens with her free hand, and she keeps looking into the lens for the rest of the shot. About one and a half seconds into the shot the housekeeper says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight. No music, no on-screen text, no subtitles.
 
 ### P3 · references A (@Abeer) + B (@Sally) + E (@Room) · final cut uses 8.0s · TEST THIS FIRST
 
@@ -190,7 +193,9 @@ One continuous shot, no cuts, vertical 9:16, static camera at eye level. Two wom
 
 ### P4 · references C (@Zeinab) + E (@Room) · final cut uses 3.8s
 
-One continuous shot, no cuts, vertical 9:16. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight, slight handheld push-in. No music, no on-screen text, no subtitles.
+v2 (2026-10-12): exactly one person in frame, the line placed at about 0.5s, eyes on the lens for the whole shot.
+
+One continuous shot, no cuts, vertical 9:16, slight handheld push-in. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together, her eyes on the camera lens for the whole shot. About half a second into the shot the housekeeper says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight. No music, no on-screen text, no subtitles.
 
 Save the downloads as `drafts/P{n}_{take}.mp4`, for example `drafts/P3_1.mp4` and `drafts/P3_2.mp4`.
 
