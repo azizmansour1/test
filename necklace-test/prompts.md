@@ -102,7 +102,7 @@ No music, no on-screen text, no subtitles, no captions, no logos.
 
 Abeer is the older woman from @Abeer: about 55, the same face as @Abeer, long black wavy hair falling past her shoulders, glamorous evening makeup with dark smoky eyes and dark red lips, a black sheer long-sleeve mesh top over a red-and-white vertical-striped dress, and her hand-made necklace of matte walnut-brown wooden beads knotted on a dark cord with a flat branch-slice medallion carved with letters. Zeinab is the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron. Sally is the younger woman from @Sally: about 35, the same face as @Sally, shoulder-length curly brown hair, natural makeup, a black top under a sleeveless red-and-navy geometric print dress. Keep these descriptions in every video prompt, next to the matching reference, and never change a character's age, hair or clothes.
 
-### Pre-flight message, pasted before each shot (replace the prompt)
+### Pre-flight message (always sent together with the shot prompt, in one message; see Ready-to-paste messages)
 
 Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
 
@@ -116,6 +116,43 @@ Generate the video now, using the default video settings and the attached refere
 ### After a miss
 
 Tell the agent what was wrong in one sentence, for example: "The woman on the sofa moved her lips during the off-screen line, and a blurred figure appeared at the right edge. What in your prompt caused that, and what would you change?" Paste the reply into chat before anything is regenerated.
+
+---
+
+## Ready-to-paste messages (one message per shot: pre-flight + prompt together)
+
+Rule from 2026-10-12: the pre-flight and the shot prompt always go in **one** message. Attach the references first,
+paste the block, paste the agent's answer into chat, and only after an "approve" send the go message.
+
+Go message, sent second, same for every shot:
+
+```
+Generate the video now, using the default video settings and the attached references, with exactly the text you listed in point 4. Do not ask follow-up questions.
+```
+
+### P1 · attach Abeer A3, Zeinab C2, room E2 · save as drafts/P1_5.mp4
+
+```
+Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
+
+One continuous shot, no cuts, vertical 9:16, static camera at eye level. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes behind it. @Abeer is the face, hair and clothes of the seated woman; @Zeinab is the face and clothes of the housekeeper; @Room is only the room. The seated woman is the older woman from @Abeer: about 55, the same face as @Abeer, long black wavy hair falling past her shoulders, glamorous evening makeup with dark smoky eyes and dark red lips, a black sheer long-sleeve mesh top over a red-and-white vertical-striped dress, and her hand-made necklace of matte walnut-brown wooden beads knotted on a dark cord with a flat branch-slice medallion carved with letters, clearly visible on her chest; she is framed from the waist up. At the right edge of the frame, seen from the side, stands the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, holding a white tea tray and bending slightly toward the seated woman. The seated woman turns her head and looks up at the housekeeper. The housekeeper looks at the necklace and says in Egyptian Arabic: "إيه ده؟" THE SEATED WOMAN DOES NOT SPEAK AND KEEPS HER MOUTH CLOSED. Warm side daylight. No music, no on-screen text, no subtitles.
+```
+
+### P2 · attach Zeinab C2, room E2 · save as drafts/P2_1.mp4
+
+```
+Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
+
+One continuous shot, no cuts, vertical 9:16. Medium shot in the living room from @Room: gilded burgundy sofa, heavy brown drapes, crystal chandelier, marble coffee table. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. The housekeeper, the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, is bent over the marble table holding the white tea tray with two glasses of tea. She freezes, her eyes fixed on the necklace worn by the woman behind the camera, out of frame, then lifts her look up to the camera, to the woman's face, surprised, and points at it. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "إنتي جبتي السلسلة دي منين؟" Warm side daylight, handheld feel. No music, no on-screen text, no subtitles.
+```
+
+### P4 · attach Zeinab C2, room E2 · save as drafts/P4_1.mp4
+
+```
+Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
+
+One continuous shot, no cuts, vertical 9:16. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. Medium close-up of the housekeeper, the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together. The woman in the dark headscarf and dark red apron says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight, slight handheld push-in. No music, no on-screen text, no subtitles.
+```
 
 ---
 
