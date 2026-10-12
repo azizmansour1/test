@@ -3,7 +3,7 @@
 Goal: recreate the first 15s of the "necklace" sketch as a tooling test. The lasting output is [PLAYBOOK.md](PLAYBOOK.md): the rules for getting Flow to generate what we ask. Four panels, vertical 9:16,
 Egyptian Arabic dialogue, then compare with the original. Budget: hard stop at 150 Flow credits.
 
-Steps 2–4 happen in Flow **by hand, on your laptop**. A cloud session cannot reach your Chrome, and
+**New session? Read [HANDOFF.md](HANDOFF.md) first.** Steps 2–4 happen in Flow **by hand, on your laptop**. A cloud session cannot reach your Chrome, and
 gflow-cli cannot drive this account (see Status). The Claude session's job is to prepare prompts
 ([prompts.md](prompts.md)), review files, mirror to Drive, and assemble the cut ([assemble.sh](assemble.sh)).
 
