@@ -7,8 +7,9 @@ measured; the evidence is in [README.md](README.md) under "Tool findings". Add t
 
 - Flow serves amjser@gmail.com an **agent-only composer**. gflow-cli cannot drive it (upstream issue #799) and cannot read
   the balance (#795). Work by hand in Flow; Claude prepares prompts and reviews files.
-- **Instruction cards** (Agent settings) are credits-free and apply to every request in the project. Keep the six cards in
-  [prompts.md](prompts.md) enabled.
+- **Instruction cards** ("Agent instructions" button next to the prompt box) are credits-free and apply to every request in
+  the project. Flow allows three active cards at most; cards 1 to 3 of [prompts.md](prompts.md) are on. Whatever cards 4 to
+  6 say has to be in the prompt itself.
 - **One message per shot: pre-flight + prompt together.** The agent answers who is in frame, whose lips move, what the camera
   does, and the exact text it will send. Read point 4, then send the go message. In the necklace test the agent's text was
   our prompt word for word, so misses came from the video model, not the agent.
@@ -49,6 +50,12 @@ The balance can rise on its own (a refill of +28 was seen overnight), so count s
 10. **Eye-line directions are followed loosely.** "Turns toward someone off-screen right" became a look toward the camera.
     Name what the eyes land on, and say it again at the moment that matters.
 11. Always end with "No music, no on-screen text, no subtitles." Quote each line exactly and say "in Egyptian Arabic".
+12. **A starting pose is dropped within half a second** (seen once, P2 take 1). "From the first frame her eyes are fixed
+    on..., about one second in she lifts her eyes" gave eyes on the lens by 0.5s. If the opening state must last, give it a
+    duration and a hold, as in rule 7: "for the first full second she does not move her eyes".
+13. **Empty seconds after the line get filled with more speech** (seen once, P2 take 1: a second, unscripted burst at
+    7.6s). Tried in P4 take 1: "After the line she stays silent with her mouth closed until the end of the shot" still
+    gave a late burst at 7.75s. Not solved by wording yet; plan the cut so that everything after the line can be dropped.
 
 ## Shot prompt template
 

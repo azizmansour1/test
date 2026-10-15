@@ -151,7 +151,7 @@ One continuous shot, no cuts, vertical 9:16, handheld feel at the eye level of a
 ```
 Do not generate anything yet. Read the shot prompt below and answer in a numbered list: (1) who is in the frame, (2) who speaks and whose lips move, (3) what the camera does, (4) the exact text you will send to the video model, word for word. Then wait for my go.
 
-One continuous shot, no cuts, vertical 9:16, slight handheld push-in. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together, her eyes on the camera lens for the whole shot. About half a second into the shot the housekeeper says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16, slight handheld push-in. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together, her eyes on the camera lens for the whole shot. About half a second into the shot the housekeeper says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." After the line she stays silent with her mouth closed until the end of the shot. Warm side daylight. No music, no on-screen text, no subtitles.
 ```
 
 ---
@@ -193,9 +193,11 @@ One continuous shot, no cuts, vertical 9:16, static camera at eye level. Two wom
 
 ### P4 · references C (@Zeinab) + E (@Room) · final cut uses 3.8s
 
+v3 (2026-10-13): adds silence after the line (playbook rule 13), because P2 take 1 spoke a second, unscripted time.
+
 v2 (2026-10-12): exactly one person in frame, the line placed at about 0.5s, eyes on the lens for the whole shot.
 
-One continuous shot, no cuts, vertical 9:16, slight handheld push-in. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together, her eyes on the camera lens for the whole shot. About half a second into the shot the housekeeper says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." Warm side daylight. No music, no on-screen text, no subtitles.
+One continuous shot, no cuts, vertical 9:16, slight handheld push-in. @Zeinab is the face and clothes of the housekeeper; @Room is only the room. EXACTLY ONE PERSON IS VISIBLE IN THE ENTIRE FRAME. Medium close-up of the housekeeper from @Zeinab: about 55, the same face as @Zeinab, a lined, kind, tired face, a dark headscarf covering all her hair and neck, a mint-green button-up shirt and a dark red bib apron, standing beside the gilded burgundy sofa from @Room and leaning forward toward the camera, pleading, hands pressed together, her eyes on the camera lens for the whole shot. About half a second into the shot the housekeeper says in Egyptian Arabic: "بقول لحضرتك إنتي جبتي السلسلة دي منين؟ أرجوكي قوليلي." After the line she stays silent with her mouth closed until the end of the shot. Warm side daylight. No music, no on-screen text, no subtitles.
 
 Save the downloads as `drafts/P{n}_{take}.mp4`, for example `drafts/P3_1.mp4` and `drafts/P3_2.mp4`.
 
