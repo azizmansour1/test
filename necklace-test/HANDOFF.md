@@ -11,12 +11,37 @@ messages).
   https://github.com/azizmansour1/test/pull/3. The repo is public: keep machine names, paths, account details and
   links to private files out of it. Videos are git-ignored: they exist only on the laptop (in `necklace-test/` and its
   Downloads folder).
-- **Flow:** project "Necklace v2", the account named in README. Balance **953**. About 135 of the 150-credit budget
-  used: **15 credits left = one take**. Nothing is pending in Flow.
-- **Chrome:** on the laptop, Claude in Chrome uses the browser that is "on this computer". Two other Windows browsers are
-  also connected; do not switch without asking.
+- **Flow, old account:** project "Necklace v2", the account named in README. Balance **953** at the end of that work
+  (1,003 on 2026-10-15 after daily credits). About 135 of its 150-credit budget used. Nothing is pending there. New work
+  happens on the second account (next section).
+- **Chrome:** Flow on the second account runs in its own Chrome profile, connected to Claude in Chrome as a separate
+  browser. Do not switch browsers without asking.
 - **References:** A3 Abeer, B1 Sally, C2 Zeinab, D5 necklace (carved-letter pendant), E2 room. In Flow the only room
   asset is named `refs/E_room_1.png`, and it is the one every take used.
+
+## Move to a second Google account (decided 2026-10-15)
+
+Drive and Flow work moves to a second Google account (named in chat, not here); Sameh drives it and does every sign-in.
+- **Budget:** fresh hard stop at 150 credits used on the new account, counted from zero. The old account's count above
+  no longer applies to new work.
+- **Not carried over:** project "Necklace v2", its references, takes and the SceneBuilder scene stay on the old account.
+  The new account needs a new Flow project, the references uploaded from the laptop's `refs/`, and instruction cards 1
+  to 3 added again (only when asked).
+- **Drive:** the Google Drive connector is reconnected to the new account by Sameh; then the repo docs go into a new
+  "Necklace test" folder there. Videos and refs exist only on the laptop and go up from there.
+
+Done on 2026-10-15:
+- **Drive:** the connector is on the new account. Its "Necklace test" folder holds empty `refs` and `drafts`
+  subfolders and HANDOFF.md, README.md, PLAYBOOK.md, prompts.md and assemble.sh, uploaded as plain files with LF line
+  endings (no Google Docs conversion). README's "Mirror to Drive" link still points at the old account's folder.
+- **Chrome:** the new account has its own Chrome profile. Its Claude extension is signed in with the paid Claude
+  account; the new Google account has no Claude plan, so signing the extension in with it fails ("requires a paid plan").
+  Switching Google accounts inside the old profile did not stick: Flow kept opening on the old account.
+- **Flow:** the account chip shows the new account, PRO badge, no projects yet. **Starting balance 1,003 = credit zero.**
+  Hard stop at 150 used. The old account read 1,003 the same evening, so the two may share a credit pool or it is a
+  coincidence; count spend per take (15 per 10s 720p take), not from the balance.
+- **Next:** create a new Flow project, upload the picked references from the laptop's `refs/`, add instruction cards 1
+  to 3, all only when asked.
 
 ## Takes (all Omni 1.1 Flash, 720p, 10s, 9:16)
 
@@ -46,8 +71,9 @@ The Flow scene is "Untitled Scene 10-12 23:10:37" in Necklace v2 (trims are in R
 1. Done (confirmed 2026-10-15): the final cut is the Flow scene, `necklace_test_flow_scene.mp4` (15.78s). "Keep
    current" meant that one.
 2. Aziz checks the Arabic wording by ear in P2 and P3 (not yet done).
-3. Upload `drafts/` and the final cut to the Drive folder "Necklace test" (see README, "Mirror to Drive"), then compare
-   with the original together with Sameh.
+3. Upload `drafts/` and the final cut to the Drive folder "Necklace test" on the new account (its `drafts` subfolder is
+   ready; README's "Mirror to Drive" link is the old account's folder), then compare with the original together with
+   Sameh.
 4. Optional: tighten the Flow scene to 15.0s, or spend the last 15 credits on a P4 take 2 that says the whole line in
    one breath (needs his "approve").
 5. The Drive doc "Necklace test – prompts v2 (2026-10-11)" is stale; prompts.md is current.
