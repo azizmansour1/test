@@ -59,5 +59,132 @@
         { "name": "يد مقشة", "nameEn": "Broom handle", "qty": 2, "unit": "piece", "notes": "أزرق / blue" }
       ]
     }
+  },
+  "sites": {
+    "life-sports-club": {
+      "name": "نادي لايف سبورتس",
+      "nameEn": "Life Sports Club",
+      "supervisor": "حجاج",
+      "supervisorEn": "Haggag",
+      "date": "2026-10-15",
+      "source": "WhatsApp",
+      "zones": [
+        {
+          "no": 1,
+          "name": "الإدارة",
+          "nameEn": "Administration",
+          "areas": [
+            { "name": "برتشنات الإتش آر", "nameEn": "HR partitions", "floor": "ground" },
+            { "name": "مكتب ماجد", "nameEn": "Majed's office", "floor": "ground" },
+            { "name": "برتشنات النشاط الرياضي", "nameEn": "Sports activity partitions", "floor": "ground" },
+            { "name": "برتشنات الفاسيليتي", "nameEn": "Facility partitions", "floor": "ground" },
+            { "name": "مكتب الـ CO", "nameEn": "CO office", "floor": "ground" },
+            { "name": "حمامين", "nameEn": "2 bathrooms", "floor": "ground" },
+            { "name": "مكتب", "nameEn": "Office", "floor": "upper" },
+            { "name": "قاعة", "nameEn": "Hall", "floor": "upper" },
+            { "name": "حمام", "nameEn": "Bathroom", "floor": "upper" }
+          ]
+        },
+        {
+          "no": 2,
+          "name": "بوابة ٤",
+          "nameEn": "Gate 4",
+          "areas": [
+            { "name": "باركنج", "nameEn": "Parking" },
+            { "name": "زرع", "nameEn": "Landscaping" },
+            { "name": "غرفة أمن", "nameEn": "Security room" },
+            { "name": "أرضيات", "nameEn": "Floors" },
+            { "name": "سلالم", "nameEn": "Stairs" }
+          ]
+        },
+        {
+          "no": 3,
+          "name": "B2",
+          "nameEn": "B2",
+          "areas": [
+            { "name": "ملعب الباسكت", "nameEn": "Basketball court" },
+            { "name": "المدرجات", "nameEn": "Stands" },
+            { "name": "حمامات أعلى وأسفل المدرج", "nameEn": "Bathrooms above and below the stands" },
+            { "name": "خوارج الملعب (إنترلوك وزرع)", "nameEn": "Court surroundings (interlock and landscaping)" },
+            { "name": "مدخل بوابة ٢", "nameEn": "Gate 2 entrance" }
+          ]
+        },
+        {
+          "no": 4,
+          "name": "ملعب القدم",
+          "nameEn": "Football field",
+          "areas": []
+        },
+        {
+          "no": 5,
+          "name": "ملعب تنس فردي",
+          "nameEn": "Singles tennis court",
+          "areas": []
+        },
+        {
+          "no": 6,
+          "name": "منطقة الفود كورت",
+          "nameEn": "Food court area",
+          "areas": []
+        },
+        {
+          "no": 7,
+          "name": "ملعب تنس زوجي",
+          "nameEn": "Doubles tennis court",
+          "areas": []
+        },
+        {
+          "no": 8,
+          "name": "الممرات ومنطقة السوبر ماركت",
+          "nameEn": "Walkways & supermarket area",
+          "areas": [
+            { "name": "ممرات خلف الملاعب", "nameEn": "Walkways behind the courts" },
+            { "name": "ممرات أمام الملاعب", "nameEn": "Walkways in front of the courts" },
+            { "name": "منطقة السوبر ماركت", "nameEn": "Supermarket area" }
+          ]
+        },
+        {
+          "no": 9,
+          "name": "الكيدز إريا",
+          "nameEn": "Kids area",
+          "areas": []
+        },
+        {
+          "no": 10,
+          "name": "حمامات الكونتينر",
+          "nameEn": "Container bathrooms",
+          "areas": []
+        },
+        {
+          "no": 11,
+          "name": "منطقة الرابر الأسود",
+          "nameEn": "Black rubber area (outdoor fitness / gym)",
+          "areas": []
+        },
+        {
+          "no": 12,
+          "name": "ممرات الفانيو",
+          "nameEn": "Walkways to El Fanio",
+          "areas": [
+            { "name": "زرع", "nameEn": "Landscaping" },
+            { "name": "إنترلوك", "nameEn": "Interlock" },
+            { "name": "باسكتات", "nameEn": "Waste bins" },
+            { "name": "أعمدة إنارة", "nameEn": "Lighting poles" }
+          ]
+        },
+        {
+          "no": 13,
+          "name": "الفانيو",
+          "nameEn": "El Fanio",
+          "areas": [
+            { "name": "ملاعب البادل", "nameEn": "Padel courts" },
+            { "name": "حمامات رجال", "nameEn": "Men's bathrooms" },
+            { "name": "حمامات بنات", "nameEn": "Women's bathrooms" },
+            { "name": "ألعاب أطفال", "nameEn": "Kids' play equipment" },
+            { "name": "الجراج", "nameEn": "Garage" }
+          ]
+        }
+      ]
+    }
   }
 }

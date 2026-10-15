@@ -7,7 +7,7 @@ const writes = Object.entries(seed).flatMap(([col, docs]) =>
   Object.entries(docs).map(([id, data]) => ({ col, id, data })));
 
 if (process.argv.includes('--dry-run')) {
-  for (const w of writes) console.log(`${w.col}/${w.id}: ${w.data.items.length} items`);
+  for (const w of writes) console.log(`${w.col}/${w.id}: ${w.data.items ? `${w.data.items.length} items` : `${w.data.zones.length} zones`}`);
   process.exit(0);
 }
 
