@@ -43,7 +43,8 @@ The Flow scene is "Untitled Scene 10-12 23:10:37" in Necklace v2 (trims are in R
 
 ## Open items, in order
 
-1. Aziz picks the final cut. He said "keep current" on 2026-10-15; not yet confirmed that means the Flow scene.
+1. Done (confirmed 2026-10-15): the final cut is the Flow scene, `necklace_test_flow_scene.mp4` (15.78s). "Keep
+   current" meant that one.
 2. Aziz checks the Arabic wording by ear in P2 and P3 (not yet done).
 3. Upload `drafts/` and the final cut to the Drive folder "Necklace test" (see README, "Mirror to Drive"), then compare
    with the original together with Sameh.
